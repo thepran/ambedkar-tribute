@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Radio Canada", sans-serif;
+  background-color: #ced8db;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  background-attachment: fixed;
+}
+
+.header {
+  background-color: #0b0b53;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  color: white;
+}
+
+.header h1 {
+  font-family: "Homemade Apple", cursive;
+  font-family: "Water Brush", cursive;
+  font-size: 1.9em;
+}
+
+#tribute-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+#tribute-section #tribute-info {
+  width: 500px;
+  text-align: justify;
+  padding: 0px;
+}
+#tribute-section #tribute-info .tribute-para-div {
+  padding: 30px 0px;
+}
+#tribute-section #tribute-info h2 {
+  padding-left: 10px;
+  margin: 12px 0px;
+}
+#tribute-section #tribute-info .tribute-para {
+  padding: 10px;
+}
+#tribute-section #tribute-info .tribute-para a {
+  text-decoration: none;
+}
+#tribute-section #img-div {
+  width: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+#tribute-section #img-div img {
+  width: 20rem;
+  max-width: 20.1rem;
+}
+#tribute-section #img-div #img-caption {
+  padding: 10px;
+  color: #777474;
+  font-size: 0.87rem;
+}
+
+#tribute-links {
+  /* background-color: yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#tribute-link {
+  background-color: #b7b7bd;
+  border: none;
+  color: #3f3e3e;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-decoration: none;
+}
+#tribute-link:hover {
+  cursor: pointer;
+  background-color: #c2c2c9;
+  color: #524f4f;
+}
+#sec-quote {
+  background-color: rgb(11, 11, 83);
+  color: rgb(225, 226, 185);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#sec-quote p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 25px;
+}
